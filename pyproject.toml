@@ -25,7 +25,7 @@ classifiers = [
 keywords = ["hysteria2", "proxy", "api", "package"]
 requires-python = ">=3.7"
 dependencies = [
-    "requests>=2.25.0",
+    "aiohttp>=3.8.0",
 ]
 
 [project.urls]
