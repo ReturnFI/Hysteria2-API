@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hysteria2-api"
+version = "0.1.0"
+description = "Python package for Hysteria2 proxy server API"
+readme = "README.md"
+authors = [
+    {name = "ReturnFI", email = "ReturnFI@proton.me"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: Proxy Servers",
+]
+keywords = ["hysteria2", "proxy", "api", "package"]
+requires-python = ">=3.7"
+dependencies = [
+    "requests>=2.25.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ReturnFI/Hysteria2-API"
+"Bug Tracker" = "https://github.com/ReturnFI/Hysteria2-API/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
