@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hysteria2-api"
-version = "0.1.2"
+version = "0.1.3"
 description = "Python package for Hysteria2 proxy server API"
 readme = "README.md"
 authors = [
@@ -12,9 +12,6 @@ authors = [
 ]
 license = {text = "MIT"}
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
@@ -23,9 +20,9 @@ classifiers = [
     "Topic :: Internet :: Proxy Servers",
 ]
 keywords = ["hysteria2", "proxy", "api", "package"]
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 dependencies = [
-    "requests>=2.32.3",
+    "requests>=2.32.4",
 ]
 
 [project.urls]
